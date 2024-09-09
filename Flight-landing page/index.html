@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: rgb(41, 40, 40);
+        }
+        header {
+            background-color: #061627;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        h2 {
+            color: white;
+        }
+        .content {
+            padding: 20px;
+            background: #061627;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            align-items: center;
+        }
+        footer {
+            background-color: #061627;
+            color: white;
+            text-align: center;
+            padding: 10px;
+           
+            width: 100%;
+            bottom: 0;
+        }
+        p{
+            color: white;
+        }
+        ul{
+            color: white;
+        }
+        ol{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flight Finder</h1>
+        <p>Encontre e Compare Passagens Aéreas com Facilidade</p>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <section class="section">
+                <h2>Descrição do Projeto</h2>
+                <p>O <strong>Flight Finder</strong> é uma aplicação de desktop desenvolvida para ajudar você a encontrar e comparar passagens aéreas de diferentes sites de forma rápida e eficiente. Utilizando <strong>Python</strong>, <strong>Selenium</strong> e <strong>Tkinter</strong>, este projeto permite buscar passagens aéreas em três das principais plataformas: LATAM, KAYAK e SMILES.</p>
+            </section>
+
+            <section class="section">
+                <h2>Principais Funcionalidades</h2>
+                <ul>
+                    <li><strong>Busca Avançada de Passagens</strong>: Consulte passagens aéreas de ida e volta entre duas cidades utilizando as ferramentas LATAM, KAYAK e SMILES.</li>
+                    <li><strong>Interface Intuitiva</strong>: Interface gráfica amigável desenvolvida com <strong>Tkinter</strong> para facilitar a entrada de dados e visualização dos resultados.</li>
+                    <li><strong>Dados Detalhados</strong>: Obtém informações completas sobre as passagens, incluindo preços, horários de partida e chegada, aeroportos, e número de paradas.</li>
+                    <li><strong>Exportação de Dados</strong>: Salve os resultados da busca em uma planilha Excel para análise posterior.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Como Funciona</h2>
+                <ol>
+                    <li><strong>Preencha os Campos de Pesquisa</strong>: Informe a origem, destino, data de partida e data de retorno.</li>
+                    <li><strong>Inicie a Busca</strong>: Clique no botão "Buscar Passagens" para iniciar o processo de coleta de dados.</li>
+                    <li><strong>Visualize os Resultados</strong>: Veja os detalhes das passagens diretamente na interface.</li>
+                    <li><strong>Salve os Resultados</strong>: Exporte os dados coletados para uma planilha Excel com um clique.</li>
+                </ol>
+            </section>
+
+            <section class="section">
+                <h2>Tecnologias Utilizadas</h2>
+                <ul>
+                    <li><strong>Python</strong>: Linguagem principal utilizada para o desenvolvimento do projeto.</li>
+                    <li><strong>Selenium</strong>: Biblioteca para automação de navegadores, usada para extrair dados de sites de passagens aéreas.</li>
+                    <li><strong>Tkinter</strong>: Biblioteca para criar a interface gráfica do usuário.</li>
+                    <li><strong>Pandas</strong>: Biblioteca para manipulação de dados e exportação para Excel.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Instruções de Uso</h2>
+                <ol>
+                    <li><strong>Instale os Requisitos</strong>: Certifique-se de ter Python e as bibliotecas necessárias instaladas.</li>
+                    <li><strong>Execute o Aplicativo</strong>: Rode o script principal para abrir a interface gráfica.</li>
+                    <li><strong>Insira os Dados</strong>: Preencha as informações de origem, destino e datas.</li>
+                    <li><strong>Busque e Salve</strong>: Clique em "Buscar Passagens" para iniciar a busca e "Salvar Dados" para exportar os resultados.</li>
+                </ol>
+            </section>
+
+            <section class="section">
+                <h2>Capturas de Tela</h2>
+                <img src="./interface-flight.png" alt="Interface Principal">
+                <p>*Interface Principal do Flight Finder*</p>
+                <img src="./resu.png" alt="Resultados de Pesquisa"><br>
+                <p>*Resultados das Passagens Aéreas*</p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por <strong>Front Dev Studio</strong>. Se você deseja contribuir para o projeto ou tem alguma dúvida, entre em contato conosco através do e-mail: <a href="studiofrontdev@gmail.com" style="color: white; text-decoration: underline;">studiofrontdev@gmail.com</a>.</p>
+    </footer>
+</body>
+</html>
